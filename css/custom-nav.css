@@ -1,0 +1,52 @@
+
+/* common syles inside navbar */
+
+.nav.navbar-nav {
+
+  font-family: "proxima-nova","Helvetica Neue",Helvetica-,Arial,sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-top: 4px solid transparent;
+
+}
+
+.nav.navbar-nav > li {
+  background: url("../img/header-nav-divider.png") right 45% no-repeat;
+}
+.nav.navbar-nav > li:last-child {
+  background: none;
+}
+
+
+/* navbar red and white hover property */
+.nav.navbar-nav li > a {
+  color: white;
+}
+
+.nav.navbar-nav li > a:hover{
+  color: #cc2d48;
+}
+
+/* Multunus Blinker */
+.text-pink {
+  color: #cc2d48;
+}
+
+.text-white {
+  color: white;
+}
+
+.blinker .tagline,
+.blinker .contact-no {
+  position: absolute;
+  right: 0px;
+  text-transform: none;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.tagline.active,
+.contact-no.active {
+  opacity: 1;
+}
