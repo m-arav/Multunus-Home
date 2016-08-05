@@ -1,3 +1,4 @@
+/* Navbar collapse */
 @media (max-width: 1050px) {
 
     .logo-container {
@@ -53,6 +54,8 @@
     }
 }
 
+
+/* Banner Image */
 @media (max-width: 991px) and (min-width: 768px) {
   #banner-img {
     min-height: 460px;
@@ -66,30 +69,95 @@
 }
 
 @media (max-width: 1406px) and (min-width: 1200px) {
- #banner-img {
+  #banner-img {
     min-height: 540px;
-}
+  }
 }
 
 @media (max-width: 1199px) and (min-width: 992px) {
- #banner-img {
+  #banner-img {
     min-height: 520px;
-}
+  }
 }
 
 @media (max-width: 767px) {
   #banner-img {
     min-height: 424px;
-}
+  }
 }
 
 @media (max-width: 1906px) and (min-width: 1766px) {
  #banner-img {
     min-height: 680px;
-}}
+  }
+}
 
 @media (min-width: 1906px) {
-#banner-img {
+  #banner-img {
     min-height: 750px;
+  }
 }
+
+
+/* Banner text */
+@media (max-width: 768px) {
+  #quote {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #quote {
+    font-size: 3rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  #quote {
+    font-size: 4rem;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 1766px) and (min-width: 1406px){
+  #quote {
+    font-size: 5.0rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1200px) {
+#quote {
+    font-size: 4.8rem;
+    line-height: 1.2;
+  }
+}
+
+@media (min-width: 1906px)
+.banner-section-container .overlay h1 {
+    font-size: 5.2rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 1906px) and (min-width: 1766px) {
+.banner-section-container .overlay h1 {
+    font-size: 5.0rem;
+    line-height: 1.2;
+  }
+}
+
+/* Overlay-content */
+
+@media (max-width: 480px) {
+.overlay-content {
+    margin-top: 28%;
+  }
+}
+
+/* explanation */
+@media (max-width: 767px) {
+#explanation {
+    margin-bottom: 40px;
+  }
 }
