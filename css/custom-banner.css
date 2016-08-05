@@ -1,0 +1,32 @@
+#banner-img {
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    z-index: 998;
+    margin: 0 0 0 0;
+    background: url("../img/bidPress_gb_full@2x_mini_i.jpg") no-repeat center center fixed;
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center !important;
+    background-repeat: no-repeat no-repeat;
+    height: 400px;
+}
+
+.banner-container {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+
+.overlay {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    bottom: 6px;
+    width: 100%;
+    background-position: left top, left top;
+    background-repeat: repeat-x, repeat;
+    text-align: center;
+}

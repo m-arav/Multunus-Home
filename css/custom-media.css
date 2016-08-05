@@ -1,4 +1,9 @@
 @media (max-width: 1050px) {
+
+    .logo-container {
+      max-width: 188px;
+      margin-right: 14px;
+    }
     .navbar-header {
         float: none;
     }
@@ -46,4 +51,45 @@
     .collapsing {
         overflow: hidden!important;
     }
+}
+
+@media (max-width: 991px) and (min-width: 768px) {
+  #banner-img {
+    min-height: 460px;
+  }
+}
+
+@media (max-width: 1766px) and (min-width: 1406px) {
+  #banner-img {
+    min-height: 640px;
+  }
+}
+
+@media (max-width: 1406px) and (min-width: 1200px) {
+ #banner-img {
+    min-height: 540px;
+}
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+ #banner-img {
+    min-height: 520px;
+}
+}
+
+@media (max-width: 767px) {
+  #banner-img {
+    min-height: 424px;
+}
+}
+
+@media (max-width: 1906px) and (min-width: 1766px) {
+ #banner-img {
+    min-height: 680px;
+}}
+
+@media (min-width: 1906px) {
+#banner-img {
+    min-height: 750px;
+}
 }
