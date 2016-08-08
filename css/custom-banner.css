@@ -50,3 +50,156 @@
     font-family: 'Montserrat',Helvetica;
     color: #FFFFFF;
 }
+
+.btn-green {
+    background: #7ED321;
+    margin-top: 1.4vw;
+    color: #fff;
+    font-weight: lighter;
+    display: inline-block;
+    border-radius: 6px;
+    transition: all .5s ease;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+.btn-green {
+    margin-top: 40px;
+}
+/* Tagline */
+
+article.tagline-container {
+    background-color: #f1f1f1;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #E4E4E4;
+}
+article.tagline-container h2 {
+    font-family: 'Montserrat',Helvetica;
+    font-size: 32px;
+    font-style: italic;
+    margin: 0 auto;
+    line-height: 51.55px;
+    font-weight: lighter;
+}
+
+
+/* Our Services */
+.home-page .our-services {
+    background-color: #f1f1f1;
+    padding-top: 40px;
+    padding-bottom: 108px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+.align-center {
+    text-align: center;
+}
+.our-services h1 {
+    margin-bottom: 60px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.home-page .our-services .service-item {
+    text-align: center;
+}
+.every_2_days {
+    text-align: center;
+    padding: 14px 0 14px 0;
+    margin-top: 74px;
+    max-width: 855px;
+    background-color: #f6f6f6;
+}
+
+.big-picture-text.on-desktop {
+    padding-top: 95px;
+}
+.big-picture-text {
+    font-weight: 300;
+}
+.hidden-sm {
+    display: block !important;
+}
+.big-picture-text.on-mobile {
+    padding-bottom: 35px;
+}
+.visible-sm {
+    display: none !important;
+}
+
+.what-img {
+    background: url("../img/what-active.png") no-repeat;
+    height: 337px;
+    width: 288px;
+}
+
+.how-img {
+    top: 65px;
+    left: 55px;
+    background: url("../img/how.png") no-repeat;
+    height: 214px;
+    width: 179px;
+}
+
+.why-img {
+    top: 128px;
+    left: 105px;
+    background: url("../img/why.png") no-repeat;
+    height: 93px;
+    width: 78px;
+}
+
+.golden-circle {
+    background-size: 100% !important;
+    transition: background 0.5s;
+    position: absolute;
+    border-top-right-radius: 240px 180px;
+    border-top-left-radius: 230px 180px;
+    border-bottom-right-radius: 240px 170px;
+    border-bottom-left-radius: 230px 170px;
+}
+
+.big-picture-text {
+    font-weight: 300;
+}
+
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.big-picture-text.on-desktop h1 {
+    margin-right: 15px;
+    text-align: right;
+    font-weight: 100;
+    font-size: 42px;
+    line-height: 49.55px;
+}
+
+.big-picture-text.on-mobile h1 {
+    font-size: 42px;
+}
+
+figure {
+    position: relative;
+    height: 337px;
+    width: 288px;
+    margin: auto;
+}
+.why-us-image-section .big-picture-list {
+    font-weight: 100;
+  }
+
+.big-picture-list ul {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.big-picture-list {
+    padding-top: 120px;
+}
