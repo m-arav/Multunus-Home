@@ -1,0 +1,63 @@
+footer {
+    background: #e4e4e4 repeat-x;
+    padding: 95px 0 0 0px;
+    padding-top: 95px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer .heading {
+    color: #333333;
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+
+footer .mail-container, footer .robot-container {
+    display: block;
+    text-align: center;
+}
+.hexagon {
+    height: 230px;
+    max-width: 197px;
+    margin: auto;
+    padding: 5em 0 4.5em 0;
+    background: url("../img/hexagon-footer-bg.png") center center no-repeat;
+    background-size: auto 100%;
+    background-origin: padding-box;
+}
+.list-unstyled, .list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.hexagon .social {
+    display: initial;
+}
+.hexagon a {
+    display: block;
+    width: 55px;
+    margin: auto;
+}
+
+.hexagon a img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.bottom {
+    margin: 25px 0;
+}
+
+.bottom hr {
+    border-top: 1px solid #BFBFBF;
+    margin-top: 55px;
+}
